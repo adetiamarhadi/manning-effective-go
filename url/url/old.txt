@@ -1,0 +1,76 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/adetiamarhadi/manning-effective-go/url
+BenchmarkURLString-8   	12035581	        99.95 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 9085634 times
+    url_test.go:96: Loop 12035581 times
+BenchmarkURLString-8   	11198368	       103.2 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 11198368 times
+BenchmarkURLString-8   	12093121	        99.38 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12093121 times
+BenchmarkURLString-8   	12037496	        99.30 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12037496 times
+BenchmarkURLString-8   	12076868	        99.34 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12076868 times
+BenchmarkURLString-8   	12064645	        99.44 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12064645 times
+BenchmarkURLString-8   	12076722	       100.3 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12076722 times
+BenchmarkURLString-8   	12082878	        99.45 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12082878 times
+BenchmarkURLString-8   	12095655	        99.48 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 12095655 times
+BenchmarkURLString-8   	11922409	        99.43 ns/op	      64 B/op	       4 allocs/op
+--- BENCH: BenchmarkURLString-8
+    url_test.go:96: Loop 1 times
+    url_test.go:96: Loop 100 times
+    url_test.go:96: Loop 10000 times
+    url_test.go:96: Loop 1000000 times
+    url_test.go:96: Loop 11922409 times
+PASS
+ok  	github.com/adetiamarhadi/manning-effective-go/url	14.519s
