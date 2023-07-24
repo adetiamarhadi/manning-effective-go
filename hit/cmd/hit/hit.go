@@ -8,6 +8,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"os/signal"
 	"runtime"
 	"time"
 
@@ -69,7 +70,9 @@ func run(s *flag.FlagSet, args []string, out io.Writer) error {
 
 	const timeout = time.Second
 	ctx, cancel := context.WithTimeout(context.Background(), timeout)
+	ctx, stop := signal.NotifyContext(ctx, os.Interrupt)
 	defer cancel()
+	defer stop()
 
 	sum := c.Do(ctx, request, f.n)
 	sum.Fprint(out)
